@@ -11,6 +11,7 @@ function day1() {
   for (let i = 0; i < y.length; i++) {
     if (y.includes(2020 - x[i])) {
       console.log("day 1 part 1: ", y[i] * (2020 - y[i]));
+      break;
     }
   }
 
